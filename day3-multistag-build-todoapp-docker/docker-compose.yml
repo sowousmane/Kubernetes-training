@@ -1,0 +1,6 @@
+services:
+  app:
+    image: kbosow/kube-day3-multistag:v0  
+    container_name: multistag-test
+    ports:
+      - 3000:80
